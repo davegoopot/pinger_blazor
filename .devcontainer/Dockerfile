@@ -22,4 +22,5 @@ RUN if [ "$INSTALL_AZURE_CLI" = "true" ]; then bash /tmp/library-scripts/azcli-d
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
 
 RUN wget https://dot.net/v1/dotnet-install.sh
+RUN chmod u+x ./dotnet-install.sh
 RUN  ./dotnet-install.sh --version 6.0.100-preview.7.21379.14
