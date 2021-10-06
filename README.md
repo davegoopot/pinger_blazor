@@ -6,17 +6,4 @@ button, then everyone who has installed the app should get a ping message.
 Target platform are mobile phones. Aim is to be a like-native app experience.
 
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-# Purpose
-
-To demo SignalR talking with Blazor WebAssembly. Application is a simple client application that displays messages broadcast from the SignalR server.
-
-# Mermaid.js Test
-
-<div class="mermaid">
-    graph TD
-    A[Client] --> B[Load Balancer]
-    B --> C[Server01]
-    B --> D[Server02]
-</div>
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBKChTVEFSVDxicj5BdXRoL0FjdGl2YXRlZCkpIC0tPnxFbnRpdHkgY3JlYXRlZHwgUmVhZE9ubHlbXCJFbWFpbCBEcmFmdCBSZWFkLU9ubHlcIl1cbiAgICBSZWFkT25seSAtLT58QXV0b21hdGljICYgQWxsIGRvY3MgcmVhZHl8IFNlbmRpbmdcbiAgICBTZW5kaW5nIC0tPnxBY2NlcHRlZCBieSBTTVRQfCBTZW50XG4gICAgUmVhZE9ubHkgLS0-fE1hbnVhbCAmIEFsbCBkb2NzIHJlYWR5fCBFZGl0YWJsZVtFbWFpbCBEcmFmdCBFZGl0YWJsZV1cbiAgICBFZGl0YWJsZSAtLT58VXNlciBwcmVzc2VzIHNlbmR8IFNlbmRpbmdcbiAgICBFZGl0YWJsZSAtLT58VXNlciBwcmVzc2VzIGNhbmNlbHwgQ2FuY2VsbGVkXG4gICAgUmVhZE9ubHkgLS0-fFVzZXIgcHJlc3NlcyBjYW5jZWx8IENhbmNlbGxlZFxuXG5cbiAgIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjp0cnVlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6dHJ1ZX0)](https://mermaid-js.github.io/mermaid-live-editor/edit/#eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBKChTVEFSVDxicj5BdXRoL0FjdGl2YXRlZCkpIC0tPnxFbnRpdHkgY3JlYXRlZHwgUmVhZE9ubHlbXCJFbWFpbCBEcmFmdCBSZWFkLU9ubHlcIl1cbiAgICBSZWFkT25seSAtLT58QXV0b21hdGljICYgQWxsIGRvY3MgcmVhZHl8IFNlbmRpbmdcbiAgICBTZW5kaW5nIC0tPnxBY2NlcHRlZCBieSBTTVRQfCBTZW50XG4gICAgUmVhZE9ubHkgLS0-fE1hbnVhbCAmIEFsbCBkb2NzIHJlYWR5fCBFZGl0YWJsZVtFbWFpbCBEcmFmdCBFZGl0YWJsZV1cbiAgICBFZGl0YWJsZSAtLT58VXNlciBwcmVzc2VzIHNlbmR8IFNlbmRpbmdcbiAgICBFZGl0YWJsZSAtLT58VXNlciBwcmVzc2VzIGNhbmNlbHwgQ2FuY2VsbGVkXG4gICAgUmVhZE9ubHkgLS0-fFVzZXIgcHJlc3NlcyBjYW5jZWx8IENhbmNlbGxlZFxuXG5cbiAgIiwibWVybWFpZCI6IntcbiAgXCJ0aGVtZVwiOiBcImRlZmF1bHRcIlxufSIsInVwZGF0ZUVkaXRvciI6dHJ1ZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOnRydWV9)
