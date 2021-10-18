@@ -23,6 +23,6 @@ RUN if [ "$INSTALL_AZURE_CLI" = "true" ]; then bash /tmp/library-scripts/azcli-d
 
 RUN wget https://dot.net/v1/dotnet-install.sh && \
     chmod u+x ./dotnet-install.sh && \
-    ./dotnet-install.sh --version 6.0.100-preview.7.21379.14 --install-dir /usr/local/bin/dotnet
+    ./dotnet-install.sh --version 6.0.100-rc.1.21463.6 --install-dir /usr/local/bin/dotnet
 ENV PATH=/usr/local/bin/dotnet:$PATH
 
